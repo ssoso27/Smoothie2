@@ -1,0 +1,19 @@
+2020-07-28T00:40:12,203 Non-user install because site-packages writeable
+2020-07-28T00:40:12,252 Created temporary directory: /private/var/folders/m2/62tx0t6d24bdjfc4ht5fdmn40000gn/T/pip-ephem-wheel-cache-x5wu8q8f
+2020-07-28T00:40:12,253 Created temporary directory: /private/var/folders/m2/62tx0t6d24bdjfc4ht5fdmn40000gn/T/pip-req-tracker-xtu48x_p
+2020-07-28T00:40:12,253 Initialized build tracking at /private/var/folders/m2/62tx0t6d24bdjfc4ht5fdmn40000gn/T/pip-req-tracker-xtu48x_p
+2020-07-28T00:40:12,253 Created build tracker: /private/var/folders/m2/62tx0t6d24bdjfc4ht5fdmn40000gn/T/pip-req-tracker-xtu48x_p
+2020-07-28T00:40:12,253 Entered build tracker: /private/var/folders/m2/62tx0t6d24bdjfc4ht5fdmn40000gn/T/pip-req-tracker-xtu48x_p
+2020-07-28T00:40:12,253 Created temporary directory: /private/var/folders/m2/62tx0t6d24bdjfc4ht5fdmn40000gn/T/pip-install-qyv2a0f2
+2020-07-28T00:40:12,253 Cleaning up...
+2020-07-28T00:40:12,254 Removed build tracker: '/private/var/folders/m2/62tx0t6d24bdjfc4ht5fdmn40000gn/T/pip-req-tracker-xtu48x_p'
+2020-07-28T00:40:12,254 ERROR: You must give at least one requirement to install (see "pip help install")
+2020-07-28T00:40:12,254 Exception information:
+2020-07-28T00:40:12,254 Traceback (most recent call last):
+2020-07-28T00:40:12,254   File "/Users/ssoyap/opt/anaconda3/lib/python3.7/site-packages/pip/_internal/cli/base_command.py", line 186, in _main
+2020-07-28T00:40:12,254     status = self.run(options, args)
+2020-07-28T00:40:12,254   File "/Users/ssoyap/opt/anaconda3/lib/python3.7/site-packages/pip/_internal/commands/install.py", line 301, in run
+2020-07-28T00:40:12,254     wheel_cache
+2020-07-28T00:40:12,254   File "/Users/ssoyap/opt/anaconda3/lib/python3.7/site-packages/pip/_internal/cli/req_command.py", line 292, in populate_requirement_set
+2020-07-28T00:40:12,254     '(see "pip help %(name)s")' % opts)
+2020-07-28T00:40:12,254 pip._internal.exceptions.CommandError: You must give at least one requirement to install (see "pip help install")
